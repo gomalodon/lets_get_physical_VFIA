@@ -3,11 +3,23 @@ by Giel Ooghe
 
 This is the repository of all code used in this master's thesis.
 
-It contains the following:
+The attack setup:
+![alt text](diagramv2.png "The attack setup")
+
+The most important files to perform an VFIA are: 
+
+pc -> sgx_attack.py and dependencies
+
+pico -> code.c
+
+HB -> serial_server.py, sgx-script.sh, startup.sh and the crt_rsa/ folder. 
+
+This repository contains the following files:
 ```
 LETS_GET_PHYSICAL
 ├── README.md
 ├── constants.py                    -> constants on the attack pc
+├── diagramv2.png               -> attack setup
 ├── util.py                         -> util functions
 │
 ├── HB/                             -> code for the Hackboard
